@@ -1,0 +1,4 @@
+/* Light touch improvements; works with most GitHub Pages themes */
+body { line-height: 1.6; }
+h1, h2 { letter-spacing: -0.02em; }
+hr { opacity: 0.3; }
