@@ -2,17 +2,18 @@
 layout: default
 title: Amr Yassin
 ---
-
-# Amr Yassin
-Senior AI/NLP Engineer & Tech Lead (6+ years) — LLM assistants, GraphRAG, Knowledge Graphs, Neo4j, LangGraph, Kubernetes.
-
-**Location:** Cairo, Egypt  
-**Email:** amr.yassin.92@gmail.com  
-**GitHub:** https://github.com/AmrYassinAbdelaal  
-**LinkedIn:** https://www.linkedin.com/in/amryassinabdelaal/  
-**Google Scholar:** https://scholar.google.com/citations?user=PJvwmzcAAAAJ  
-
-📄 **Download CV:** [Amr_Yassin_CV.pdf](assets/cv/Amr_Yassin_CV.pdf)
+ 
+<div class="hero">
+  <img src="assets/images/profile.svg" alt="Amr Yassin" class="avatar">
+  <div class="hero-text">
+    <h1>Amr Yassin</h1>
+    <p class="subtitle">Senior AI/NLP Engineer &amp; Tech Lead (6+ years) — LLM assistants, GraphRAG, Knowledge Graphs, Neo4j, LangGraph, Kubernetes.</p>
+    <p class="contacts">
+      <a href="#">Cairo, Egypt</a> · <a href="mailto:amr.yassin.92@gmail.com">Email</a> · <a href="https://github.com/AmrYassinAbdelaal">GitHub</a> · <a href="https://www.linkedin.com/in/amryassinabdelaal/">LinkedIn</a>
+    </p>
+    <p>📄 <a href="assets/cv/Amr_Yassin_CV.pdf">Download CV</a></p>
+  </div>
+</div>
 
 ---
 
