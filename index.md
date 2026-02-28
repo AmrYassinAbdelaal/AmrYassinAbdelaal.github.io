@@ -1,63 +1,176 @@
 ---
 layout: default
-title: Amr Yassin
+title: Amr Yassin Abdelaal
 ---
- 
+
 <div class="hero">
-  <img src="assets/images/profile.svg" alt="Amr Yassin" class="avatar">
+  <div class="hero-avatar-wrap">
+    <img src="assets/images/profile.jpeg" alt="Amr Yassin Abdelaal" class="avatar">
+    <div class="avatar-glow"></div>
+  </div>
   <div class="hero-text">
-    <h1>Amr Yassin</h1>
-    <p class="subtitle">Senior AI/NLP Engineer &amp; Tech Lead (6+ years) — LLM assistants, GraphRAG, Knowledge Graphs, Neo4j, LangGraph, Kubernetes.</p>
-    <p class="contacts">
-      <a href="#">Cairo, Egypt</a> · <a href="mailto:amr.yassin.92@gmail.com">Email</a> · <a href="https://github.com/AmrYassinAbdelaal">GitHub</a> · <a href="https://www.linkedin.com/in/amryassinabdelaal/">LinkedIn</a>
-    </p>
-    <p>📄 <a href="assets/cv/Amr_Yassin_CV.pdf">Download CV</a></p>
+    <h1>Amr Yassin Abdelaal</h1>
+    <p class="subtitle">Senior GenAI/NLP Engineer &amp; Tech Lead</p>
+    <p class="tagline">LLM-powered assistants &middot; Multi-Agent Systems &middot; GraphRAG &middot; Knowledge Graphs</p>
+    <div class="contacts">
+      <a href="mailto:amr.yassin.92@gmail.com" class="contact-chip"><span class="chip-icon">&#9993;</span> Email</a>
+      <a href="https://github.com/AmrYassinAbdelaal" class="contact-chip"><span class="chip-icon">&#9998;</span> GitHub</a>
+      <a href="https://www.linkedin.com/in/amryassinabdelaal/" class="contact-chip"><span class="chip-icon">in</span> LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=PJvwmzcAAAAJ" class="contact-chip"><span class="chip-icon">&#127891;</span> Scholar</a>
+    </div>
   </div>
 </div>
 
----
+<section class="section" id="summary">
 
-## Summary
-Senior AI/NLP Engineer and Tech Lead with 6+ years building LLM-powered assistants and knowledge-graph products end to end.
-At Implicit (formerly Agolo), I led the Answers team and shipped a GraphRAG customer-support chatbot built on a Neo4j knowledge graph and self-hosted Llama models.
-I designed a German-language Q&A system (Neo4j + GPT-4), built RAG-based entity-centric summarizers, and developed a PDF parsing pipeline blending rule-based extraction with YOLO.
-I focus heavily on reliability—e.g., FactAlign, a KG-aligned hallucination detection approach—while leading teams from early concept through delivery.
+## About
 
----
+Senior GenAI/NLP Engineer and Tech Lead with **8+ years** of experience building **LLM-powered assistants**, **multi-agent systems**, and **knowledge-graph products**. Currently leading an AI team delivering enterprise workflows using multi-agent and NLQ-to-SQL solutions. Strong background in **RAG**, **GraphRAG**, and **knowledge alignment**, with hands-on delivery across Python/Java stacks, Neo4j, and production-grade LLM systems.
 
-## Work Experience
+</section>
 
-### NLP Engineer – Tech Lead, Implicit (formerly Agolo) (Dec 2020 – Present)
-- Led the **Answers Team**, shipping a customer support chatbot using **GraphRAG**, **Neo4j**, and **self-hosted Llama** models  
-- Designed a **German-language Q&A system** using **Neo4j + GPT-4** for answering from product manuals  
-- Led summarization work for **PDFs, news, and ESG reports**, including **RAG-based** and **entity-centric KG summarizers**  
-- Fine-tuned **Llama** models for domain-specific generation and summarization  
-- Built a PDF parsing system combining **rule-based extraction** with **YOLOv7** for complex documents  
-- Worked on **FactAlign**, an unsupervised **KG-based hallucination detection** approach using KG alignment  
+<section class="section" id="experience">
 
-### Research Assistant, Biomedical & Neuro Engineering Lab (Dec 2018 – Dec 2020)
-- Built feature extraction + classification pipelines for neural spiking data using **SVM** and **PCA**  
-- Achieved ~99% accuracy on simulated data; ~81% on experimental ALS-model mice data using ensemble methods  
+## Experience
 
-### Teaching Assistant, Ain Shams University (Sep 2016 – Mar 2020)
-- TA and grader across courses including Neural Networks, DSA, Computer Vision, Digital Image Processing, and more  
+<div class="timeline">
 
----
+<div class="timeline-item">
+<div class="timeline-date">Dec 2025 &ndash; Present</div>
+<div class="timeline-content">
+<h3>Gen AI Team Lead <span class="company">Stealth</span></h3>
 
-## Education
-- **M.Sc. Computer Engineering**, Ain Shams University (2016–2021) — GPA 3.5  
-  Thesis: “Extraction of Electrical Markers for Motor Neuron Disease Using Machine Learning Methods”
-- **B.Sc. Computer Engineering**, Ain Shams University (2011–2016) — GPA 3.5  
-  Graduation project: AUTOSAR Ethernet Opponent
+- Building an enterprise **multi-agent AI system** for business process intelligence using **Microsoft AutoGen**
+- Developing a **NLQ-to-SQL pipeline** using **DSPy** with SQL validation to safely execute AI-generated queries
+- Architected real-time agent communication via **gRPC** bidirectional streaming
 
----
+</div>
+</div>
 
-## Skills
-- **Languages:** Python, Java, C++  
-- **Tools:** PyTorch, TensorFlow, scikit-learn, LangChain/LangGraph, Neo4j, Docker, Kubernetes  
-- **Languages:** Arabic (native), English (proficient)
+<div class="timeline-item">
+<div class="timeline-date">Dec 2020 &ndash; Dec 2025</div>
+<div class="timeline-content">
+<h3>NLP Engineer &ndash; Tech Lead <span class="company">Implicit (formerly Agolo)</span></h3>
 
----
+- Led the **Answers Team**, shipping a customer support chatbot using **GraphRAG**, **Neo4j**, and a **self-hosted Llama** LLM
+- Designed a **German-language Q&A system** using **Neo4j + GPT-4** for answering from product manuals
+- Led the **Summarization Team** for PDFs, news, and ESG reports &mdash; built **RAG-based** and **entity-centric KG summarizers**
+- Fine-tuned **Llama** models for domain-specific text generation and summarization
+- Built a **PDF parsing system** combining rule-based extraction with **YOLOv7**
+- Worked on **FactAlign**, an unsupervised **KG-based hallucination detection** method using KG alignment
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">Dec 2018 &ndash; Dec 2020</div>
+<div class="timeline-content">
+<h3>Research Assistant <span class="company">Biomedical &amp; Neuro Engineering Lab</span></h3>
+
+- Built neural spiking feature extraction and classification pipelines using **SVM** and **PCA** for ALS biomarkers
+- Achieved ~81% accuracy on ALS-model mice using **SVM** and ensemble methods
+
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-date">Sep 2016 &ndash; Mar 2020</div>
+<div class="timeline-content">
+<h3>Teaching Assistant <span class="company">Ain Shams University</span></h3>
+
+- TA and grader for Neural Networks, Data Structures & Algorithms, Computer Vision, and Digital Image Processing
+
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="publications">
 
 ## Publications
-See Google Scholar: https://scholar.google.com/citations?user=PJvwmzcAAAAJ
+
+<div class="pub-list">
+<div class="pub">
+<strong>FactAlign: Fact-level hallucination detection and classification through knowledge graph alignment.</strong><br>
+<span class="pub-authors">M. Rashad, A. Zahran, A. Amin, <em>A. Abdelaal</em>, M. AlTantawy.</span><br>
+<span class="pub-venue">TrustNLP Workshop @ NAACL 2024</span>
+</div>
+
+<div class="pub">
+<strong>Spiking motoneurons effective connectivity as an early electrophysiological biomarker of ALS.</strong><br>
+<span class="pub-authors"><em>A. Y. Abdelaal</em>, M. H. Mousa, M. Gamal, M. I. Khalil, S. M. Elbasiouny, S. Eldawlatly.</span><br>
+<span class="pub-venue">Neuroscience Meeting Planner, SfN 2021</span>
+</div>
+
+<div class="pub">
+<strong>A classification approach to recognize the firing of spinal motoneurons in ALS.</strong><br>
+<span class="pub-authors"><em>A. Y. Abdelaal</em>, M. H. Mousa, M. Gamal, M. I. Khalil, S. M. Elbasiouny, S. Eldawlatly.</span><br>
+<span class="pub-venue">IEEE EMBC 2020</span>
+</div>
+</div>
+
+</section>
+
+<section class="section" id="education">
+
+## Education
+
+<div class="edu-grid">
+<div class="edu-card">
+<div class="edu-degree">M.Sc. in Computer Engineering</div>
+<div class="edu-school">Ain Shams University &middot; 2016&ndash;2021 &middot; GPA 3.5</div>
+<div class="edu-detail">Thesis: "Extraction of Electrical Markers for Motor Neuron Disease Using Machine Learning Methods"</div>
+</div>
+<div class="edu-card">
+<div class="edu-degree">B.Sc. in Computer Engineering</div>
+<div class="edu-school">Ain Shams University &middot; 2011&ndash;2016 &middot; GPA 3.5</div>
+<div class="edu-detail">Graduation project: AUTOSAR Ethernet Opponent</div>
+</div>
+</div>
+
+</section>
+
+<section class="section" id="skills">
+
+## Skills
+
+<div class="skills-grid">
+<div class="skill-group">
+<div class="skill-label">Languages</div>
+<div class="skill-tags">
+<span class="tag">Python</span>
+<span class="tag">Java</span>
+<span class="tag">C++</span>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-label">AI / ML</div>
+<div class="skill-tags">
+<span class="tag">PyTorch</span>
+<span class="tag">TensorFlow</span>
+<span class="tag">Scikit-learn</span>
+<span class="tag">LangChain</span>
+<span class="tag">AutoGen</span>
+<span class="tag">DSPy</span>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-label">Infrastructure</div>
+<div class="skill-tags">
+<span class="tag">Neo4j</span>
+<span class="tag">gRPC</span>
+<span class="tag">Docker</span>
+<span class="tag">Kubernetes</span>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-label">Spoken</div>
+<div class="skill-tags">
+<span class="tag">Arabic <small>(native)</small></span>
+<span class="tag">English <small>(proficient)</small></span>
+</div>
+</div>
+</div>
+
+</section>
