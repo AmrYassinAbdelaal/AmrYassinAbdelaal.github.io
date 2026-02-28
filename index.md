@@ -92,19 +92,19 @@ Senior GenAI/NLP Engineer and Tech Lead with **8+ years** of experience building
 
 <div class="pub-list">
 <div class="pub">
-<strong>FactAlign: Fact-level hallucination detection and classification through knowledge graph alignment.</strong><br>
+<strong>FactAlign: Fact-level hallucination detection and classification through knowledge graph alignment</strong><br>
 <span class="pub-authors">M. Rashad, A. Zahran, A. Amin, <em>A. Abdelaal</em>, M. AlTantawy.</span><br>
 <span class="pub-venue">TrustNLP Workshop @ NAACL 2024</span>
 </div>
 
 <div class="pub">
-<strong>Spiking motoneurons effective connectivity as an early electrophysiological biomarker of ALS.</strong><br>
+<strong>Spiking motoneurons effective connectivity as an early electrophysiological biomarker of ALS</strong><br>
 <span class="pub-authors"><em>A. Y. Abdelaal</em>, M. H. Mousa, M. Gamal, M. I. Khalil, S. M. Elbasiouny, S. Eldawlatly.</span><br>
 <span class="pub-venue">Neuroscience Meeting Planner, SfN 2021</span>
 </div>
 
 <div class="pub">
-<strong>A classification approach to recognize the firing of spinal motoneurons in ALS.</strong><br>
+<strong>A classification approach to recognize the firing of spinal motoneurons in ALS</strong><br>
 <span class="pub-authors"><em>A. Y. Abdelaal</em>, M. H. Mousa, M. Gamal, M. I. Khalil, S. M. Elbasiouny, S. Eldawlatly.</span><br>
 <span class="pub-venue">IEEE EMBC 2020</span>
 </div>
