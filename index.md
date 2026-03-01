@@ -6,7 +6,20 @@ title: Amr Yassin Abdelaal
 <div class="hero">
   <div class="hero-avatar-wrap">
     <img src="assets/images/profile.jpeg" alt="Amr Yassin Abdelaal" class="avatar">
-    <div class="avatar-glow"></div>
+    <div class="avatar-glow">
+      <svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="80,4 113,17 146,50 146,110 113,143 80,156 47,143 14,110 14,50 47,17" stroke="#6366f1" stroke-width="1" opacity="0.35"/>
+        <polygon points="80,20 95,45 120,30 105,55 140,60 105,70 120,95 95,80 80,110 65,80 40,95 55,70 20,60 55,55 40,30 65,45" stroke="#818cf8" stroke-width="0.7" opacity="0.25"/>
+        <line x1="80" y1="4" x2="80" y2="20" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
+        <line x1="146" y1="80" x2="130" y2="80" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
+        <line x1="80" y1="156" x2="80" y2="140" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
+        <line x1="14" y1="80" x2="30" y2="80" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
+        <circle cx="80" cy="4" r="2" fill="#6366f1" opacity="0.3"/>
+        <circle cx="146" cy="80" r="2" fill="#6366f1" opacity="0.3"/>
+        <circle cx="80" cy="156" r="2" fill="#6366f1" opacity="0.3"/>
+        <circle cx="14" cy="80" r="2" fill="#6366f1" opacity="0.3"/>
+      </svg>
+    </div>
   </div>
   <div class="hero-text">
     <h1>Amr Yassin Abdelaal</h1>
@@ -28,6 +41,8 @@ title: Amr Yassin Abdelaal
 Senior GenAI/NLP Engineer and Tech Lead with **8+ years** of experience building **LLM-powered assistants**, **multi-agent systems**, and **knowledge-graph products**. Currently leading an AI team delivering enterprise workflows using multi-agent and NLQ-to-SQL solutions. Strong background in **RAG**, **GraphRAG**, and **knowledge alignment**, with hands-on delivery across Python/Java stacks, Neo4j, and production-grade LLM systems.
 
 </section>
+
+<div class="geo-divider"><div class="geo-divider-line left"></div><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg><div class="geo-divider-line right"></div></div>
 
 <section class="section" id="experience">
 
@@ -86,6 +101,8 @@ Senior GenAI/NLP Engineer and Tech Lead with **8+ years** of experience building
 </div>
 </section>
 
+<div class="geo-divider"><div class="geo-divider-line left"></div><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg><div class="geo-divider-line right"></div></div>
+
 <section class="section" id="publications">
 
 ## Publications
@@ -112,6 +129,8 @@ Senior GenAI/NLP Engineer and Tech Lead with **8+ years** of experience building
 
 </section>
 
+<div class="geo-divider"><div class="geo-divider-line left"></div><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg><div class="geo-divider-line right"></div></div>
+
 <section class="section" id="education">
 
 ## Education
@@ -130,6 +149,8 @@ Senior GenAI/NLP Engineer and Tech Lead with **8+ years** of experience building
 </div>
 
 </section>
+
+<div class="geo-divider"><div class="geo-divider-line left"></div><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg><div class="geo-divider-line right"></div></div>
 
 <section class="section" id="skills">
 
