@@ -14,23 +14,69 @@
   <div class="hero-avatar-wrap">
     <img src="assets/images/profile.jpeg" alt="Amr Yassin Abdelaal" class="avatar">
     <div class="avatar-glow">
-      <svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Outer octagonal frame -->
-        <polygon points="80,4 113,17 146,50 146,110 113,143 80,156 47,143 14,110 14,50 47,17"
-                 stroke="#6366f1" stroke-width="1" opacity="0.35"/>
+      <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="starGlow">
+            <feGaussianBlur stdDeviation="2" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <!-- Outer 8-pointed star (two overlapping squares) -->
+        <polygon points="100,10 125,40 155,20 152,58 190,58 165,88 195,100 165,112 190,142 152,142 155,180 125,160 100,190 75,160 45,180 48,142 10,142 35,112 5,100 35,88 10,58 48,58 45,20 75,40"
+                 stroke="#c9a96e" stroke-width="1.6" opacity="0.70" filter="url(#starGlow)"/>
+        <!-- Second star layer -->
+        <polygon points="100,28 118,50 140,36 138,64 164,64 148,86 172,96 148,108 164,136 138,132 140,160 118,148 100,168 82,148 60,160 62,132 36,136 52,108 28,96 52,86 36,64 62,64 60,36 82,50"
+                 stroke="#b8943e" stroke-width="1.2" opacity="0.55"/>
         <!-- Inner 8-pointed star -->
-        <polygon points="80,20 95,45 120,30 105,55 140,60 105,70 120,95 95,80 80,110 65,80 40,95 55,70 20,60 55,55 40,30 65,45"
-                 stroke="#818cf8" stroke-width="0.7" opacity="0.25"/>
-        <!-- Geometric accent lines -->
-        <line x1="80" y1="4" x2="80" y2="20" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
-        <line x1="146" y1="80" x2="130" y2="80" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
-        <line x1="80" y1="156" x2="80" y2="140" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
-        <line x1="14" y1="80" x2="30" y2="80" stroke="#6366f1" stroke-width="0.5" opacity="0.2"/>
-        <!-- Small circles at cardinal points -->
-        <circle cx="80" cy="4" r="2" fill="#6366f1" opacity="0.3"/>
-        <circle cx="146" cy="80" r="2" fill="#6366f1" opacity="0.3"/>
-        <circle cx="80" cy="156" r="2" fill="#6366f1" opacity="0.3"/>
-        <circle cx="14" cy="80" r="2" fill="#6366f1" opacity="0.3"/>
+        <polygon points="100,46 112,60 126,52 124,68 142,70 132,82 146,92 132,98 142,114 124,112 126,128 112,120 100,136 88,120 74,128 76,112 58,114 68,98 54,92 68,82 58,70 76,68 74,52 88,60"
+                 stroke="#d4b896" stroke-width="0.9" opacity="0.50"/>
+        <!-- Octagon -->
+        <polygon points="100,58 128,70 136,100 128,130 100,142 72,130 64,100 72,70"
+                 stroke="#c9a96e" stroke-width="1.0" opacity="0.50"/>
+        <!-- Inner octagon -->
+        <polygon points="100,70 120,78 126,100 120,122 100,130 80,122 74,100 80,78"
+                 stroke="#b8943e" stroke-width="0.8" opacity="0.42"/>
+        <!-- Interlocking bands -->
+        <line x1="100" y1="10" x2="100" y2="46" stroke="#c9a96e" stroke-width="0.6" opacity="0.30"/>
+        <line x1="190" y1="100" x2="146" y2="92" stroke="#c9a96e" stroke-width="0.6" opacity="0.30"/>
+        <line x1="100" y1="190" x2="100" y2="136" stroke="#c9a96e" stroke-width="0.6" opacity="0.30"/>
+        <line x1="10" y1="100" x2="54" y2="92" stroke="#c9a96e" stroke-width="0.6" opacity="0.30"/>
+        <!-- Pentagon fills -->
+        <polygon points="48,58 62,64 52,86 35,88 36,64" stroke="#c9a96e" stroke-width="0.6" opacity="0.25"/>
+        <polygon points="152,58 138,64 148,86 165,88 164,64" stroke="#c9a96e" stroke-width="0.6" opacity="0.25"/>
+        <polygon points="152,142 138,132 148,108 165,112 164,136" stroke="#c9a96e" stroke-width="0.6" opacity="0.25"/>
+        <polygon points="48,142 62,132 52,108 35,112 36,136" stroke="#c9a96e" stroke-width="0.6" opacity="0.25"/>
+        <!-- Center rosette -->
+        <circle cx="100" cy="100" r="12" stroke="#d4b896" stroke-width="0.8" opacity="0.45"/>
+        <circle cx="100" cy="100" r="5" stroke="#c9a96e" stroke-width="0.6" opacity="0.55"/>
+        <!-- Warm gold node dots -->
+        <g fill="#e8d0a8">
+          <circle cx="100" cy="10" r="2.5" opacity="0.75"/>
+          <circle cx="155" cy="20" r="2" opacity="0.60"/>
+          <circle cx="190" cy="58" r="2.5" opacity="0.75"/>
+          <circle cx="195" cy="100" r="2" opacity="0.60"/>
+          <circle cx="190" cy="142" r="2.5" opacity="0.75"/>
+          <circle cx="155" cy="180" r="2" opacity="0.60"/>
+          <circle cx="100" cy="190" r="2.5" opacity="0.75"/>
+          <circle cx="45" cy="180" r="2" opacity="0.60"/>
+          <circle cx="10" cy="142" r="2.5" opacity="0.75"/>
+          <circle cx="5" cy="100" r="2" opacity="0.60"/>
+          <circle cx="10" cy="58" r="2.5" opacity="0.75"/>
+          <circle cx="45" cy="20" r="2" opacity="0.60"/>
+          <circle cx="125" cy="40" r="1.8" opacity="0.50"/>
+          <circle cx="152" cy="58" r="1.5" opacity="0.45"/>
+          <circle cx="165" cy="88" r="1.8" opacity="0.50"/>
+          <circle cx="165" cy="112" r="1.5" opacity="0.45"/>
+          <circle cx="152" cy="142" r="1.8" opacity="0.50"/>
+          <circle cx="125" cy="160" r="1.5" opacity="0.45"/>
+          <circle cx="75" cy="160" r="1.8" opacity="0.50"/>
+          <circle cx="48" cy="142" r="1.5" opacity="0.45"/>
+          <circle cx="35" cy="112" r="1.8" opacity="0.50"/>
+          <circle cx="35" cy="88" r="1.5" opacity="0.45"/>
+          <circle cx="48" cy="58" r="1.8" opacity="0.50"/>
+          <circle cx="75" cy="40" r="1.5" opacity="0.45"/>
+          <circle cx="100" cy="100" r="3" opacity="0.85"/>
+        </g>
       </svg>
     </div>
   </div>
@@ -54,7 +100,7 @@
 
 <div class="geo-divider">
   <div class="geo-divider-line left"></div>
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg>
+  <svg width="52" height="52" viewBox="0 0 52 52" fill="none"><defs><filter id="dg"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><polygon points="26,2 29,9 33,4 32,12 38,8 36,15 42,13 39,19 45,20 39,23 45,26 39,28 42,34 36,32 38,38 32,36 33,42 29,38 26,44 23,38 19,42 20,36 14,38 16,32 10,34 13,28 7,26 13,23 7,20 13,19 10,13 16,15 14,8 20,12 19,4 23,9" stroke="#c9a96e" stroke-width="1.2" opacity="0.7" filter="url(#dg)"/><polygon points="26,10 30,15 34,22 30,29 26,34 22,29 18,22 22,15" stroke="#b8943e" stroke-width="0.8" opacity="0.55"/><circle cx="26" cy="22" r="5" stroke="#d4b896" stroke-width="0.7" opacity="0.5"/><circle cx="26" cy="22" r="2" fill="#e8d0a8" opacity="0.7"/><circle cx="26" cy="2" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="45" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/><circle cx="26" cy="44" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="7" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/></svg>
   <div class="geo-divider-line right"></div>
 </div>
 
@@ -76,16 +122,39 @@
     </div>
 
     <div class="timeline-item">
-      <div class="timeline-date">Dec 2020 &ndash; Dec 2025</div>
+      <div class="timeline-date">Dec 2022 &ndash; Dec 2025</div>
       <div class="timeline-content">
-        <h3>NLP Engineer &ndash; Tech Lead <span class="company">Implicit (formerly Agolo)</span></h3>
+        <h3>Lead NLP Engineer <span class="company">Implicit (formerly Agolo)</span></h3>
         <ul>
-          <li>Led the <strong>Answers Team</strong>, shipping a customer support chatbot using <strong>GraphRAG</strong>, <strong>Neo4j</strong>, and a <strong>self-hosted Llama</strong> LLM</li>
-          <li>Designed a <strong>German-language Q&A system</strong> using <strong>Neo4j + GPT-4</strong> for answering from product manuals</li>
-          <li>Led the <strong>Summarization Team</strong> for PDFs, news, and ESG reports &mdash; built <strong>RAG-based</strong> and <strong>entity-centric KG summarizers</strong></li>
-          <li>Fine-tuned <strong>Llama</strong> models for domain-specific text generation and summarization</li>
-          <li>Built a <strong>PDF parsing system</strong> combining rule-based extraction with <strong>YOLOv7</strong></li>
-          <li>Worked on <strong>FactAlign</strong>, an unsupervised <strong>KG-based hallucination detection</strong> method using KG alignment</li>
+          <li>Leading the <strong>Answers Team</strong> to develop an advanced customer support chatbot using <strong>GraphRAG</strong>, <strong>Neo4j</strong> knowledge graphs, and a <strong>self-hosted LLaMA-based LLM</strong>, enabling automated responses to product support queries</li>
+          <li>Designed and implemented a <strong>German-language Q&amp;A system</strong> powered by <strong>Neo4j + GPT-4</strong>, sourcing answers from complex product manuals</li>
+          <li>Led R&amp;D efforts in hallucination detection via <strong>FactAlign</strong>, a <strong>knowledge graph-based alignment</strong> technique published at <strong>TrustNLP 2024</strong></li>
+          <li>Architected and fine-tuned domain-specific <strong>LLaMA</strong> models for summarization and generation tasks in enterprise use cases</li>
+          <li>Integrated <strong>PDF parsing</strong> using <strong>YOLOv7</strong> and rule-based extraction for structured information retrieval</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Dec 2021 &ndash; Dec 2022</div>
+      <div class="timeline-content">
+        <h3>Senior NLP Research Engineer <span class="company">Implicit (formerly Agolo)</span></h3>
+        <ul>
+          <li>Spearheaded the <strong>Summarization Team</strong>, focusing on PDFs, ESG reports, and news summarization through <strong>RAG-based</strong> and <strong>entity-centric KG summarizers</strong></li>
+          <li>Directed efforts in fine-tuning <strong>LLMs</strong> (LLaMA family) for custom summarization and text generation pipelines</li>
+          <li>Collaborated cross-functionally with product teams to embed summarization capabilities into customer-facing applications</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">Dec 2020 &ndash; Dec 2021</div>
+      <div class="timeline-content">
+        <h3>NLP Research Engineer <span class="company">Implicit (formerly Agolo)</span></h3>
+        <ul>
+          <li>Developed a <strong>PDF parsing system</strong> combining rule-based extraction and <strong>YOLOv7</strong>, enabling accurate retrieval of structured text from complex document layouts</li>
+          <li>Built and evaluated summarization pipelines for PDFs, ESG reports, and news articles, contributing to the foundation of Agolo&rsquo;s <strong>entity-centric</strong> and <strong>RAG-based summarizers</strong></li>
+          <li>Contributed to early <strong>LLM experimentation</strong> and supported fine-tuning workflows for domain-specific summarization and QA systems</li>
         </ul>
       </div>
     </div>
@@ -116,7 +185,7 @@
 
 <div class="geo-divider">
   <div class="geo-divider-line left"></div>
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg>
+  <svg width="52" height="52" viewBox="0 0 52 52" fill="none"><defs><filter id="dg"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><polygon points="26,2 29,9 33,4 32,12 38,8 36,15 42,13 39,19 45,20 39,23 45,26 39,28 42,34 36,32 38,38 32,36 33,42 29,38 26,44 23,38 19,42 20,36 14,38 16,32 10,34 13,28 7,26 13,23 7,20 13,19 10,13 16,15 14,8 20,12 19,4 23,9" stroke="#c9a96e" stroke-width="1.2" opacity="0.7" filter="url(#dg)"/><polygon points="26,10 30,15 34,22 30,29 26,34 22,29 18,22 22,15" stroke="#b8943e" stroke-width="0.8" opacity="0.55"/><circle cx="26" cy="22" r="5" stroke="#d4b896" stroke-width="0.7" opacity="0.5"/><circle cx="26" cy="22" r="2" fill="#e8d0a8" opacity="0.7"/><circle cx="26" cy="2" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="45" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/><circle cx="26" cy="44" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="7" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/></svg>
   <div class="geo-divider-line right"></div>
 </div>
 
@@ -124,29 +193,29 @@
   <h2>Publications</h2>
 
   <div class="pub-list">
-    <div class="pub">
-      <strong>FactAlign: Fact-level hallucination detection and classification through knowledge graph alignment.</strong><br>
+    <a href="https://aclanthology.org/2024.trustnlp-1.8/" target="_blank" rel="noopener" class="pub">
+      <strong>FactAlign: Fact-level hallucination detection and classification through knowledge graph alignment</strong><br>
       <span class="pub-authors">M. Rashad, A. Zahran, A. Amin, <em>A. Abdelaal</em>, M. AlTantawy.</span><br>
       <span class="pub-venue">TrustNLP Workshop @ NAACL 2024</span>
-    </div>
+    </a>
 
-    <div class="pub">
-      <strong>Spiking motoneurons effective connectivity as an early electrophysiological biomarker of ALS.</strong><br>
+    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=PJvwmzcAAAAJ&citation_for_view=PJvwmzcAAAAJ:u5HHmVD_uO8C" target="_blank" rel="noopener" class="pub">
+      <strong>Spiking motoneurons effective connectivity as an early electrophysiological biomarker of ALS</strong><br>
       <span class="pub-authors"><em>A. Y. Abdelaal</em>, M. H. Mousa, M. Gamal, M. I. Khalil, S. M. Elbasiouny, S. Eldawlatly.</span><br>
       <span class="pub-venue">Neuroscience Meeting Planner, SfN 2021</span>
-    </div>
+    </a>
 
-    <div class="pub">
-      <strong>A classification approach to recognize the firing of spinal motoneurons in ALS.</strong><br>
+    <a href="https://ieeexplore.ieee.org/document/9176551" target="_blank" rel="noopener" class="pub">
+      <strong>A classification approach to recognize the firing of spinal motoneurons in ALS</strong><br>
       <span class="pub-authors"><em>A. Y. Abdelaal</em>, M. H. Mousa, M. Gamal, M. I. Khalil, S. M. Elbasiouny, S. Eldawlatly.</span><br>
       <span class="pub-venue">IEEE EMBC 2020</span>
-    </div>
+    </a>
   </div>
 </section>
 
 <div class="geo-divider">
   <div class="geo-divider-line left"></div>
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg>
+  <svg width="52" height="52" viewBox="0 0 52 52" fill="none"><defs><filter id="dg"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><polygon points="26,2 29,9 33,4 32,12 38,8 36,15 42,13 39,19 45,20 39,23 45,26 39,28 42,34 36,32 38,38 32,36 33,42 29,38 26,44 23,38 19,42 20,36 14,38 16,32 10,34 13,28 7,26 13,23 7,20 13,19 10,13 16,15 14,8 20,12 19,4 23,9" stroke="#c9a96e" stroke-width="1.2" opacity="0.7" filter="url(#dg)"/><polygon points="26,10 30,15 34,22 30,29 26,34 22,29 18,22 22,15" stroke="#b8943e" stroke-width="0.8" opacity="0.55"/><circle cx="26" cy="22" r="5" stroke="#d4b896" stroke-width="0.7" opacity="0.5"/><circle cx="26" cy="22" r="2" fill="#e8d0a8" opacity="0.7"/><circle cx="26" cy="2" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="45" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/><circle cx="26" cy="44" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="7" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/></svg>
   <div class="geo-divider-line right"></div>
 </div>
 
@@ -169,7 +238,7 @@
 
 <div class="geo-divider">
   <div class="geo-divider-line left"></div>
-  <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><polygon points="18,2 26,10 34,18 26,26 18,34 10,26 2,18 10,10" stroke="#6366f1" stroke-width="0.8" opacity="0.5"/><polygon points="18,8 24,14 24,22 18,28 12,22 12,14" stroke="#818cf8" stroke-width="0.5" opacity="0.35"/><circle cx="18" cy="18" r="3" stroke="#6366f1" stroke-width="0.5" opacity="0.4"/></svg>
+  <svg width="52" height="52" viewBox="0 0 52 52" fill="none"><defs><filter id="dg"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><polygon points="26,2 29,9 33,4 32,12 38,8 36,15 42,13 39,19 45,20 39,23 45,26 39,28 42,34 36,32 38,38 32,36 33,42 29,38 26,44 23,38 19,42 20,36 14,38 16,32 10,34 13,28 7,26 13,23 7,20 13,19 10,13 16,15 14,8 20,12 19,4 23,9" stroke="#c9a96e" stroke-width="1.2" opacity="0.7" filter="url(#dg)"/><polygon points="26,10 30,15 34,22 30,29 26,34 22,29 18,22 22,15" stroke="#b8943e" stroke-width="0.8" opacity="0.55"/><circle cx="26" cy="22" r="5" stroke="#d4b896" stroke-width="0.7" opacity="0.5"/><circle cx="26" cy="22" r="2" fill="#e8d0a8" opacity="0.7"/><circle cx="26" cy="2" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="45" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/><circle cx="26" cy="44" r="1.5" fill="#e8d0a8" opacity="0.7"/><circle cx="7" cy="20" r="1.5" fill="#e8d0a8" opacity="0.6"/></svg>
   <div class="geo-divider-line right"></div>
 </div>
 
